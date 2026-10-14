@@ -128,11 +128,16 @@ h1, h2 { font-family: var(--font-display); font-weight: 700; letter-spacing: .00
 .service-top svg { width: 37px; height: 37px; fill: none; stroke: var(--yellow); stroke-width: 1.4; stroke-linecap: square; stroke-linejoin: miter; }
 .service-card h3 { margin: 0 0 9px; font-family: var(--font-display); font-size: 23px; line-height: 1.1; font-weight: 600; letter-spacing: .025em; }
 .service-card p { max-width: 320px; min-height: 58px; margin: 0 0 17px; color: var(--muted); font-size: 11px; line-height: 1.75; }
+.service-card .service-price { min-height: 0; margin: 0 0 13px; color: var(--yellow); font-size: 12px; font-weight: 700; letter-spacing: .02em; }
 .text-link { display: inline-flex; align-items: center; gap: 12px; color: var(--yellow); font-size: 10px; font-weight: 700; letter-spacing: .045em; }
 .text-link span { font-size: 15px; transition: transform .2s ease; }
 .text-link:hover span { transform: translate(3px,-2px); }
 .service-card-featured { background: #191a16; }
 .service-card-featured:hover { background: #202119; }
+.catalogue-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin: 70px 0 32px; }
+.catalogue-heading .eyebrow { margin: 0 0 12px; }
+.catalogue-heading h3 { margin: 0; font-family: var(--font-display); font-size: clamp(27px, 3vw, 38px); line-height: 1; letter-spacing: .025em; }
+.catalogue-heading .section-lead { max-width: 400px; margin: 0 0 2px; }
 .location-extras { display: grid; grid-template-columns: 1.1fr repeat(2, 1fr); gap: 16px; margin-top: 38px; padding-top: 28px; border-top: 1px solid var(--line); }
 .location-extras-heading .eyebrow { margin: 0 0 12px; }
 .location-extras-heading h3 { margin: 0; font-family: var(--font-display); font-size: 25px; line-height: 1; letter-spacing: .025em; }
@@ -262,6 +267,8 @@ h1, h2 { font-family: var(--font-display); font-weight: 700; letter-spacing: .00
   .section-heading { display: block; margin-bottom: 30px; }
   .section-heading h2, .contact-heading h2 { font-size: clamp(48px, 12.5vw, 70px); }
   .section-lead { margin-top: 18px; font-size: 12px; }
+  .catalogue-heading { display: block; margin: 48px 0 25px; }
+  .catalogue-heading .section-lead { margin-top: 15px; }
   .services-grid { grid-template-columns: 1fr; }
   .service-card { min-height: 0; padding: 22px 21px; }
   .location-extras { grid-template-columns: 1fr; gap: 12px; margin-top: 28px; padding-top: 22px; }
