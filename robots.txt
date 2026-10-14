@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lejuan6673-oss.github.io/Infiniti-boss-auto/sitemap.xml
